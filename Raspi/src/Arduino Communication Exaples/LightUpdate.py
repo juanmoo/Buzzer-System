@@ -2,6 +2,9 @@
 
 import time
 import smbus
+"""
+This code makes the buzzer lights blink.
+"""
 
 bus = smbus.SMBus(1)
 slave_address = 0x10
